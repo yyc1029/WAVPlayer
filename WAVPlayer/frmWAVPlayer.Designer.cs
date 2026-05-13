@@ -142,6 +142,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmWAVPlayer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmWAVPlayer_FormClosing_1);
+            this.Load += new System.EventHandler(this.frmWAVPlayer_Load);
             this.grpPath.ResumeLayout(false);
             this.grpPath.PerformLayout();
             this.grpButton.ResumeLayout(false);

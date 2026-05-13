@@ -71,5 +71,10 @@ namespace WAVPlayer
                 e.Cancel = true; // 取消關閉
             }
         }
+
+        private void frmWAVPlayer_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("歡迎使用WAV播放器！請點擊「瀏覽」按鈕選擇一個WAV檔案來播放。", "歡迎", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
